@@ -1,0 +1,18 @@
+{
+  "name": "one",
+  "version": "1.0.0",
+  "license": "MIT",
+  "typesVersions": {
+    "*": {
+      "*": [
+        "src/*"
+      ]
+    }
+  },
+  "devDependencies": {
+    "typescript": "^4.3.4"
+  },
+  "scripts": {
+    "tsc": "tsc --module es2015 src/*.ts"
+  }
+}
